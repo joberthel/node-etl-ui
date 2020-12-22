@@ -5,13 +5,15 @@ export const config: Config = {
     namespace: 'node-etl-ui',
     plugins: [
         sass({
-            injectGlobalPaths: ['src/globals/variables.scss']
+            injectGlobalPaths: ['src/globals/_variables.scss']
         })
     ],
+    globalStyle: 'src/globals/main.scss',
     outputTargets: [
         {
             type: 'dist',
-            esmLoaderPath: '../loader'
+            esmLoaderPath: '../loader',
+            copy: [{ src: 'fonts', dest: '../fonts' }]
         },
         {
             type: 'dist-custom-elements-bundle'

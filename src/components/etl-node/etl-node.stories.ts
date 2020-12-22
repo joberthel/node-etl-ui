@@ -16,8 +16,8 @@ const argTypes = {
 };
 
 export default {
-    title: 'Components/My Component',
-    component: 'my-component',
+    title: 'Components/Node',
+    component: 'etl-node',
     parameters: {
         notes: {
             markdown
@@ -25,7 +25,7 @@ export default {
     }
 };
 
-const Template = ({ first, last }) => html` <my-component first="${first}" last="${last}"></my-component> `;
+const Template = ({ first, last }) => html` <etl-node first="${first}" last="${last}"></etl-node> `;
 
 export const Default = Template.bind({});
 Default.args = { ...args };

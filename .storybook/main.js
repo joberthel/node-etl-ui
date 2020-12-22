@@ -17,6 +17,12 @@ module.exports = {
                     patterns: [{ from: 'dist/' + name }]
                 })
             );
+
+            config.plugins.push(
+                new CopyWebpackPlugin({
+                    patterns: [{ from: 'dist/fonts', to: 'fonts' }]
+                })
+            );
         }
 
         return config;

@@ -27,6 +27,7 @@ app.use(/\/iframe\.html\?*/, async (req, res, next) => {
             '<head>',
             `<head>
         <script type="module" src="/dist/${name}/${name}.esm.js"></script>
+        <link rel="stylesheet" href="/dist/${name}/${name}.css" />
         `
         )
         .replace(

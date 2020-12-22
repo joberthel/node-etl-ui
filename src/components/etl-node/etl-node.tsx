@@ -2,11 +2,11 @@ import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
 
 @Component({
-    tag: 'my-component',
-    styleUrl: 'my-component.scss',
+    tag: 'etl-node',
+    styleUrl: 'etl-node.scss',
     shadow: true
 })
-export class MyComponent {
+export class EtlNode {
     /**
      * The first name
      */
