@@ -2,7 +2,7 @@ import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
 
 export const config: Config = {
-    namespace: 'node-etl-components',
+    namespace: 'node-etl-ui',
     plugins: [
         sass({
             injectGlobalPaths: ['src/globals/variables.scss']
