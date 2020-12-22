@@ -1,7 +1,6 @@
-# my-component
+# etl-node
 
 <!-- Auto Generated Below -->
-
 
 ## Properties
 
@@ -11,7 +10,4 @@
 | `last`   | `last`    | The last name   | `string` | `undefined` |
 | `middle` | `middle`  | The middle name | `string` | `undefined` |
 
-
-----------------------------------------------
-
-
+---
